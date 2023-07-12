@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Smith-Cv.pdf";
 import Info from "./Info";
+import Hobbies from "./Hobbies";
 
 const About = () => {
   return (
@@ -17,8 +17,12 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I love to create and design web pages. I started my tech career in 2021 when I attended Kenzie Academy and obtained a certificate in Full Stack Web Development. I have a passion for learning and I'm eager to utilize my skills and knowlege at a company who will value me.
+            I love to create and design web pages. I started my tech career in 2022 when I attended Kenzie Academy and obtained a certificate in Full Stack Web Development. I have a passion for learning and I'm eager to utilize my skills and knowlege at a company who will value me.
           </p>
+
+          <h2 className="hobbies__title">Hobbies</h2>
+
+          <Hobbies />
 
           <a  href="https://www.parchment.com/u/award/c56d92e58c909b553b6fb457f112b908" className="button button--flex">
             View Certificate

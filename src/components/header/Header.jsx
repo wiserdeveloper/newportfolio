@@ -57,13 +57,13 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i className="uil uil-award nav__icon"></i> Skills
               </a>
             </li>
 
             <li className="nav__item">
               <a
-                href="#services"
+                href="https://docs.google.com/document/d/e/2PACX-1vTWu8i2IH4Prs5w60QmCv9qbocpMCXnkycVkvdvGOzG0to432QrFiOAi49jFGpYOAZsw6-hj6GydFiv/pub"
                 onClick={() => setActiveNav("#services")}
                 className={
                   activeNav === "#services"
@@ -71,7 +71,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                <i className="uil uil-file nav__icon"></i> Resume
               </a>
             </li>
 
@@ -85,7 +85,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                <i className="uil uil-bag-alt nav__icon"></i> Portfolio
               </a>
             </li>
 

@@ -21,37 +21,11 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+            <a href="https://docs.google.com/document/d/e/2PACX-1vTWu8i2IH4Prs5w60QmCv9qbocpMCXnkycVkvdvGOzG0to432QrFiOAi49jFGpYOAZsw6-hj6GydFiv/pub" className="footer__link">
+              Resume
             </a>
           </li>
         </ul>
-
-        <div className="footer__social">
-          <a
-            href="https://www.facebook.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-facebook"></i>
-          </a>
-
-          <a
-            href="https://www.instagram.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-instagram"></i>
-          </a>
-
-          <a
-            href="https://twitter.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-twitter"></i>
-          </a>
-        </div>
       </div>
     </footer>
   );
