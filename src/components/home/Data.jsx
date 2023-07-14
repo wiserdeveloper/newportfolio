@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Full Stack Web Developer</h3>
       <p className="home__description">
-        Dedicated web developer with 2 years of experience with JavaScript and React.
+        Dedicated web developer with 1 year of experience with JavaScript and React.
       </p>
 
       <a href="#contact" className="button button--flex">
