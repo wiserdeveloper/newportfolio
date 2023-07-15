@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import Info from "./Info";
 import Hobbies from "./Hobbies";
 
 const About = () => {
+
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>

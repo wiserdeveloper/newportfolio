@@ -3,7 +3,8 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
+      <h1 className="tracking-in-expand-fwd">Hello, my name is...</h1>
+      <h1 className="home__title tracking-in-expand-fwd">
         Alyssa Wiser
         <svg
           width="36"
@@ -60,7 +61,7 @@ const Data = () => {
         Dedicated web developer with 1 year of experience with JavaScript and React.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex shake-lr">
         Say Hello
         <svg
           class="button__icon"
