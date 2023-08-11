@@ -11,12 +11,6 @@ export const projectsData = [
     link: "https://github.com/taylorjohnsondev/Memories-Booking"
   },
   {
-    id: 3,
-    image: Work3,
-    title: "IBRO",
-    category: "design",
-  },
-  {
     id: 5,
     image: Work5,
     title: "Particle Morph",
@@ -28,12 +22,6 @@ export const projectsData = [
 // projects
 export const projectsNav = [
   {
-    name: "all",
-  },
-  {
     name: "web",
-  },
-  {
-    name: "design",
   },
 ];
