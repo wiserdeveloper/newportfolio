@@ -3,6 +3,7 @@ import "./testimonial.css";
 import { Data } from "./Data";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Icon } from '@iconify/react';
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,8 +15,13 @@ import "swiper/css/pagination";
 const Testimonials = () => {
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">My Colleagues Say</h2>
       <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">My Colleagues Say</h2>
+      <p className="section__text">
+      <Icon icon="icon-park-outline:hand-drag" color="white" width="30" height="30" />
+      Drag
+      </p>
+      
 
       <Swiper
         className="testimonial__container"

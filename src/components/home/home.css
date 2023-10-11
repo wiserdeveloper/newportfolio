@@ -355,6 +355,10 @@
     width: 22px;
     height: 22px;
   }
+
+  .home__data {
+    margin-left: 50px;
+  }
 }
 
 

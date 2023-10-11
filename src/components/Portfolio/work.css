@@ -41,8 +41,13 @@
 
 .work__title {
   font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-weight: 800;
   margin-bottom: var(--mb-0-5);
+}
+
+.work__description {
+  font-size: var(--normal-font-size);
+  width: 500px;
 }
 
 .work__button {
@@ -52,6 +57,7 @@
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
+  margin-top: var(--mb-0-5);
 }
 
 .work__button-icon {

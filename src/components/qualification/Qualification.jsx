@@ -10,8 +10,8 @@ const Qualification = () => {
 
   return (
     <section className="qualification section">
-      <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personel journey</span>
+      <h2 className="section__title">Qualification</h2>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -52,7 +52,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Full Stack Web Development</h3>
                 <span className="qualification__subtitle">
-                  Kenzie Academy | Southern New Hampshire University
+                  Southern New Hampshire University
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - 2023
@@ -134,7 +134,7 @@ const Qualification = () => {
                   Microsoft - Spain
                 </span> */}
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
 

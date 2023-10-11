@@ -18,7 +18,7 @@ const Hobbies = () => {
       </div>
 
       <div className="about__box">
-        <i class="bx bx-joystick-alt about__icon"></i>
+        <i class="bx bx-joystick-altbx bx-joystick-alt about__icon"></i>
 
         <h3 className="about__title">Restoration</h3>
         <span className="about__subtitle">Recently picked up a new love of repairing and restoring old video game consoles</span>

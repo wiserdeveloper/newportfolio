@@ -9,11 +9,12 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: #fff;
+  --title-color-dark: #0e1c35;
+  --text-color: #fff;
+  --body-color: #040913;
+  /* Below is the info box color */
+  --container-color: #0e1c35; 
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -121,17 +122,23 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  margin-bottom: 4rem;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
 }
 
 .section__title,
 .section__subtitle {
   text-align: center;
+}
+
+.section__text {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 20px;
 }
 
 /*=============== LAYOUT ===============*/
@@ -157,11 +164,16 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #0e1c35;
+  color: #fff;
 }
 
 .button__icon {
   margin-left: var(--mb-0-5);
+}
+
+.button__icon:hover {
+  color: #fff;
 }
 
 .button--flex {

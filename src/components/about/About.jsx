@@ -8,8 +8,8 @@ const About = () => {
 
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
+      <h2 className="section__title">About Me</h2>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -18,7 +18,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I love to create and design web pages. I started my tech career in 2022 when I attended Kenzie Academy and obtained a certificate in Full Stack Web Development. I have a passion for learning and I'm eager to utilize my skills and knowlege at a company who will value me.
+          I have a genuine passion for coding and creating useful applications. My tech journey began in 2022 when I completed a Full-Stack Web Development certificate program at Southern New Hampshire University. I am driven by a continuous hunger for knowledge and I am eagerly seeking an opportunity to apply my skills and expertise at a company that recognizes and values my contributions.
           </p>
 
           <h2 className="hobbies__title">Hobbies</h2>
