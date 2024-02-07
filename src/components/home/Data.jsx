@@ -7,9 +7,9 @@ const Data = () => {
       <h1 className="home__title tracking-in-expand-fwd">
         Alyssa Wiser
       </h1>
-      <h3 className="home__subtitle">Full-Stack Web Developer</h3>
+      <h3 className="home__subtitle">Software Engineer</h3>
       <p className="home__description">
-        Passionate web developer with 2 years of personal experience with JavaScript and React.
+        Passionate software engineer with 2 years of personal experience with JavaScript and React.
       </p>
 
       <a href="#contact" className="button button--flex shake-lr">

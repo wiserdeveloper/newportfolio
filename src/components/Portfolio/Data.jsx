@@ -9,7 +9,7 @@ export const projectsData = [
     title: "The Official Indiana Bigfoot Conference Website",
     description: "I collaborated with two teammates to develop the official Indiana Bigfoot Conference website, leveraging Stripe.js for seamless ticket purchasing and React for the website's frontend. Additionally, we integrated email.js to streamline vendor sign-up forms, ensuring a user-friendly and efficient experience for attendees and vendors alike.",
     category: "web",
-    link: "https://github.com/taylorjohnsondev/Memories-Booking"
+    link: "https://www.indianabigfootconference.com/"
   },
   {
     id: 2,

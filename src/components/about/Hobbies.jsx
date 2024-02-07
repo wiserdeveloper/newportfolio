@@ -39,10 +39,10 @@ const Hobbies = () => {
       </div>
 
       <div className="about__box">
-        <i class="bx bxs-landscape about__icon"></i>
+        <i class="bx bx-code-alt about__icon"></i>
 
-        <h3 className="about__title">Hiking</h3>
-        <span className="about__subtitle">Being outdoors is one of the most important things in my life</span>
+        <h3 className="about__title">Tech</h3>
+        <span className="about__subtitle">I love building and taking apart things. My current project is building a battle bot.</span>
       </div>
     </div>
   );
